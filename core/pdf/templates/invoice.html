@@ -1,0 +1,249 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<style>
+    .img-invoice {
+        width: 50px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .head {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    #invoice thead tr th {
+        text-align: left;
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+        padding-top: 4px;
+    }
+
+    #invoice thead tr {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #invoice tbody tr {
+        padding: 0;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+
+</style>
+<body>
+<table style="border: black solid">
+    <thead>
+    <!-- PARTE DEL LOGO-->
+    <tr style="height: 40px">
+        <th rowspan="2"><img src="static/1.jpg" width="300px" height="150px"></th>
+        <th >INFORME DE ANÁLISIS DE VIBRACIONES</th>
+        <th rowspan="2"></th>
+    </tr>
+    <tr style="height: 40px">
+        <th>
+        </th>
+    </tr>
+    <!-- NOMBRE DEL EQUIPO-->
+
+    <tr style="height: 40px; background-color: #c6d9f1">
+        <th>
+            Nombre del equipo:
+        </th>
+
+        <th colspan="2">
+            Nombre del equipo:
+        </th>
+    </tr>
+    <!-- NOMBRE DEL EQUIPO-->
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th>
+            Detalles del equipo:
+        </th>
+
+        <th>
+            Imagen:
+        </th>
+        <th>
+            Esquema:
+        </th>
+    </tr>
+    <tr style="height: 250px">
+        <th>
+            <p>
+                Área: ATOMIZADO <br>
+                Tipo: Tornillo con Variador de Frecuencia <br>
+                Potencia: 75 hp <br>
+                Vel. nominal: 1790rpm <br>
+                Transmisión: Acople <br>
+                Carga: 100% <br>
+                Vel. Operación: <br>
+                2600-2800 rpm <br>
+
+                Marca: QUINCY <br>
+                Modelo: QGV-75 <br>
+                Serie: BU1112050065 <br>
+
+            </p>
+        </th>
+
+        <th>
+            <img src="static/2.jpg" height="300px" width="300px">
+        </th>
+        <th>
+            <img src="static/2.jpg" height="300px" width="300px">
+
+        </th>
+    </tr>
+
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th>
+            Estándares:
+        </th>
+
+        <th>
+            Tolerancias de Alarma y Peligro:
+        </th>
+
+        <th>
+            PRIORIDAD MANTENIMIENTO
+        </th>
+    </tr>
+    <tr style="height: 150px">
+        <th>
+            TECHNICAL ASSOCIATES OF CHARLOTTE, P.C
+        </th>
+
+        <th>
+            <p style="font-size: 30px;">
+                Velocidad (VEL RMS) <br>
+                Alarma: 8.1 mm/s<br>
+                Peligro: 11.7 mm/s<br>
+                <br>
+                Aceleración (ACC RMS)<br>
+                Alarma: 3 g<br>
+                Peligro: 5 g<br>
+
+                Envolvente (ENV RMS)<br>
+                Alarma: 3 g<br>
+                Peligro: 9 g<br>
+
+            </p>
+
+        </th>
+        <th>
+            P1 Atención inmediata
+        </th>
+    </tr>
+
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th colspan="3">
+            Valores de vibración:
+        </th>
+    </tr>
+    <tr style="padding-top: 20px; padding-bottom: 20px;">
+        <th colspan="3">
+            <table style="border: black solid">
+                <thead>
+                <tr>
+                    <th scope="col">Name</th>
+                    <th scope="col">Date</th>
+                    <th scope="col">Value</th>
+                    <th scope="col">Unit</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Larry</td>
+                    <td>the Bird</td>
+                    <td>@twitter</td>
+                </tr>
+                </tbody>
+            </table>
+        </th>
+    </tr>
+    </thead>
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th colspan="3">
+            Tendencia de vibración y espectros relevantes:
+        </th>
+    </tr>
+    <tr style="padding-top: 10px; padding-top: 20px;">
+        <th colspan="3">
+            <img src="static/ejemplo.png">
+            <p>
+                Componentes espectrales relevantes a 4X
+            </p>
+
+        </th>
+
+    </tr>
+    <tr style="padding-top: 10px; padding-top: 20px;">
+        <th colspan="3">
+            <img src="static/ejemplo.png">
+            <p>
+                Componentes espectrales relevantes a 4X
+            </p>
+
+        </th>
+
+    </tr>
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th colspan="3">
+            Diagnostico
+        </th>
+    </tr>
+    <tr style="padding-top: 10px">
+        <th colspan="3">
+            Los valores de vibración medidos en todos los puntos de monitoreo en el compresor se mantienen dentro del
+            nivele admisible según la norma de la TECHNICAL ASSOCIATES OF CHARLOTTE, P.C, los espectros capturados en
+            cada punto son de baja amplitud con picos de frecuencia relevantes a 4X (interacción de tornillos), propios
+            de la operación misma, además en la tendencia general y espectral, se puede observar un comportamiento
+            estable
+        </th>
+    </tr>
+    <tr style="height: 40px; background-color:  #d9d9d9">
+        <th colspan="3">
+            Recomendaciones:
+        </th>
+    </tr>
+    <tr style="padding-top: 10px">
+        <th colspan="3">
+
+            Crear tendencia e ir monitoreando cada tres meses los niveles de vibración, observa la tendencia y evolución
+            de la vibración y establecer estadísticamente los limites óptimos de trabajo, que es cuando la variación de
+            la vibración no haya cambiado de modo significativo, más de un 15% en seis meses.
+
+
+        </th>
+    </tr>
+</table>
+
+<table style="margin-top: 250px;">
+    <thead>
+    <tr>
+        <th>****CREADO POR FSOCIETY****</th>
+    </tr>
+
+    </thead>
+</table>
+</body>
+</html>
